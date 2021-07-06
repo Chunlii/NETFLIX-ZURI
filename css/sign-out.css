@@ -1,0 +1,110 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/Sign\ Out.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Netflix Sans Regular';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.logo-signIn{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+.logo-signIn img{
+    width: 200px;
+}
+.logo-signIn button{
+    background: #D6000F;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Netflix Sans Regular';
+
+} 
+.container{
+    padding: 0px 60px;
+}
+.leaving-soon{
+    background: white;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 30px 40px;
+}
+
+.para-1{
+    margin: 20px 0px;
+}
+
+.Go-now{
+    padding: 10px 20px;
+    background: #307BEB;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Netflix Sans Regular';
+    font-size: 16px;
+
+}
+.footer {
+    color: #C4C4C4D4;
+    padding: 20px;
+}
+h3 {
+    margin: 15px 0px;
+    color: #C4C4C4D4;
+    font-weight: normal;
+}
+.links {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.questions {
+    color: #C4C4C4D4;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.links a {
+    text-decoration: none;
+    margin: 10px;
+    color: grey;
+    width: 140px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px){
+    .logo-signIn img{
+        width: 150px;
+    }
+    .logo-signIn button{
+        padding: 7px 12px;
+        color: white;
+        font-size: 13px;
+        font-family: 'Netflix Sans Regular';
+
+    } 
+    .leaving-soon p{
+        font-size: 1rem;
+    }
+}
+

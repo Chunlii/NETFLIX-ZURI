@@ -1,0 +1,430 @@
+*{
+    margin: 0 ;
+    padding: 0;
+
+}
+body{
+    font-family: 'Netflix Sans Regular';
+
+}
+.container{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100px;
+}
+.landing-container{
+    background-image: url(../images/ES-es-20210425-popsignuptwoweeks-perspective_alpha_website_small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo-signIn{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.logo-signIn img{
+    width: 200px;
+}
+.logo-signIn button{
+    background: #D6000F;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Netflix Sans Regular';
+
+}
+.Unlimited-movies{
+    text-align: center;
+    margin:  auto;
+    padding:  60px;
+    max-width: 700px;
+}
+.Unlimited-movies > h1{
+    font-size: 52px;
+    
+}
+.watch-anywhere{
+    margin-top: 10px;
+    font-size: 26px;
+}
+.ready-to-watch{
+    margin: 30px 20px 10px 20px;
+    font-size: 21px;
+    text-align: center;
+}
+.get-started-landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.get-started-landing input{
+    padding: 22.5px;
+    border: none;
+    outline: none;
+    width: 65%;
+}
+.button-chevron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6000F;
+    padding: 18px;
+    
+}
+.button-chevron button{
+    background-color: #D6000F;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 21px;
+}
+.button-chevron img{
+    width: 20px;
+    background: #D6000F;
+    
+}
+.grey-line{
+    border: 4px solid rgb(56, 55, 55);
+}
+.Enjoy-on-tv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    margin: auto;
+}
+.enjoy-img{
+    margin-left: 100px;
+}
+.enjoy-text{
+    padding: 30px;
+}
+.enjoy-text h1{
+font-size: 52px;
+
+}
+.enjoy-text p{
+    margin-top: 10px;
+    font-size: 26px;
+
+}
+.tv{
+    width: 530px;
+}
+.video-play{
+    width: 390px;
+    margin-top: -316px;
+    margin-left: 68px;
+}
+.download-img-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 27px;
+    margin: auto;
+    
+}
+.download-img {
+    width: 500px;
+    margin-left: -100px;
+    position: relative;
+}
+.download-img-text{
+    max-width: 40%;
+}
+.download-img-text p{
+    margin-top: 10px;
+}
+.stranger-things{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(56, 55, 55);
+    border-radius: 10px;
+    background: black;
+    width: 300px;
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 30px;
+}
+.stranger-things-paragraph p{
+    font-size: 20px;
+}
+.stranger-things-paragraph a{
+    font-size: 15px;
+    color: rgb(67, 67, 212);
+    text-decoration: none;
+}
+.stranger-things-img-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.stranger-things-img{
+    width: 50px;
+    margin-right: 10px;
+}
+.stranger-things-download-img{
+    width: 50px;
+}
+.watch-everywhere{
+    font-size: 27px;
+    padding: 70px 100px;
+    width: 40%;
+}
+.watch-everywhere p{
+    margin-top: 10px;
+}
+.create-profile-kids{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    font-size: 27px;
+    width: 80%;
+    margin: auto;
+}
+
+.create-profile-text{
+    max-width: 40%;
+}
+.create-profile-text p{
+    margin-top: 10px;
+    
+}
+.create-img{
+    width: 500px;
+    margin-left: -50px;
+}
+.FAQ{
+    max-width: 60%;
+    margin: auto;
+    padding: 10px 100px;
+}
+.FAQ h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.FAQ div{
+    background: #303030;
+    padding: 20px 40px;
+    margin: 10px auto ;
+    font-size: 27px;
+}
+
+.faq-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FAQ img{
+    width: 30px;
+    background-color: black;
+    color: white;
+}
+.ready-to-watch-bottom{
+    margin-top: 80px;
+}
+.get-started-bottom{
+    max-width: 70%;
+    margin: 20px auto 60px auto;
+}
+.footer{
+    padding: 50px 10px;
+    max-width: 70%;
+    margin: auto;
+    color: grey;
+    
+}
+.footer h5{
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.links a{
+    text-decoration: none;
+    margin: 10px ;
+    color: grey;
+    width: 140px;
+    font-size: 13px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 950px){
+    .logo-signIn img{
+        max-width: 40%;
+    }
+    .logo-signIn button{
+        padding: 9px 12px;
+        font-size: .9rem;
+    }
+    .get-started-landing{
+        display: flex;
+        flex-direction: column; 
+    }
+    .get-started-landing input{
+        width: 80%;
+        padding: 20px;
+    }
+    .Unlimited-movies{
+        padding: 60px 15px;
+    }
+    .Unlimited-movies h1{
+        font-size: 2rem;
+    }
+    .watch-anywhere{
+        font-size: 1.2rem;
+    }
+    .ready-to-watch{
+        font-size: 1.2rem;
+    }
+    .button-chevron{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .button-chevron button{
+        font-size: .95rem;
+        margin-right: 5px;
+    }
+    .Enjoy-on-tv{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .enjoy-img{
+        margin-left: 10px;
+    }
+    .enjoy-text h1{
+        font-size: 2rem;
+    }
+    .enjoy-text p{
+        font-size: 1.2rem;
+    }
+    .video-play{
+        margin-left: -7px;
+    }
+    .download-img-section{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .download-img{
+        margin: 0px;
+        position: relative;
+    }
+    .download-img-text{
+        max-width: 100%;
+        text-align: center;
+    }
+    .download-img-text h1{
+        font-size: 2rem;
+    }
+    .download-img-text p{
+        font-size: 1.2rem;
+    }
+    
+    .watch-everywhere{
+        text-align: center;
+        width: 80%;
+        padding: 100px 30px;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+    .watch-everywhere h1{
+        font-size: 2rem;
+    }
+    .watch-everywhere p{
+        font-size: 1.2rem;
+    }
+    .create-profile-kids{
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 1.3rem;
+
+    }
+    .create-profile-text{
+        max-width: 100%;
+        text-align: center;
+    }
+    .create-profile-text h1{
+        font-size: 2rem;
+    }
+    .create-profile-text p{
+        font-size: 1.2rem;
+    }
+    .FAQ{
+        max-width: 100%;
+    }
+    .FAQ h1{
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .FAQ div{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 890px){
+    .stranger-things{
+        margin-left: 280px;}
+}
+@media screen and (max-width: 850px){
+    .stranger-things{
+        margin-left: 260px;}
+}
+@media screen and (max-width: 800px){
+    .stranger-things{
+        margin-left: 240px;}
+}
+@media screen and (max-width: 750px){
+    .stranger-things{
+        margin-left: 210px;}
+}
+@media screen and (max-width: 750px){
+    .stranger-things{
+        margin-left: 210px;}
+}
+@media screen and (max-width: 650px){
+    .stranger-things{
+        margin-left: 160px;}
+}
+@media screen and (max-width: 550px){
+    .stranger-things{
+        margin-left: 120px;}
+}
+@media screen and (max-width: 500px){
+    .stranger-things{
+        margin-left: 80px;}
+}
+@media screen and (max-width: 450px){
+    .stranger-things{
+        margin-left: 50px;}
+}
+@media screen and (max-width: 400px){
+    .stranger-things{
+        margin-left: 30px;}
+}
+@media screen and (max-width: 350px){
+    .stranger-things{
+        max-width: 50%;
+        margin-left: 10px;}
+}

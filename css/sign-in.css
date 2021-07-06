@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Netflix Sans Regular';
+    background-image: url(../images/ES-es-20210425-popsignuptwoweeks-perspective_alpha_website_small.png);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Sign-Section{
+    background: black;
+    padding: 60px;
+    width: 500px;
+    margin:  auto;
+    opacity: 0.8;
+}
+h1{
+    margin-bottom: 30px;
+}
+input, button{
+    background: #C4C4C4;
+    font-size: 15px;
+    width: 100%;
+    padding: 18px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-family: 'Netflix Sans Regular';
+}
+
+.input-1{
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(199, 38, 38);
+    font-size: 16px;
+    padding: 15px;
+}
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #C4C4C4D4;
+}
+.check-box div{
+    display: flex;
+    align-items: center;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.fb-login{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.fb-login img{
+    margin-right: 10px;
+    padding: 1px 6px;
+    background: #4A7BF8;
+
+}
+
+h3{
+    margin: 15px 0px;
+    color: #C4C4C4D4;
+    font-weight: normal;
+}
+h3 > span{
+    color: white;
+}
+.recaptcha{
+    font-size: 14px;
+}
+.recaptcha a{
+    text-decoration: none;
+    color: #4A7BF8;
+}
+.grey-line{
+    border: 2px solid grey;
+}
+.footer{
+    background: black;
+    color: #C4C4C4D4;
+    padding: 40px 20px;
+}
+
+.questions{
+    color: #C4C4C4D4;  
+    font-size: 18px;
+    padding-left: 10px; 
+    text-decoration: none;
+
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.links a{
+    text-decoration: none;
+    margin: 10px;
+    color: grey;
+    width: 140px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background: black;
+    }
+    .Sign-Section{
+        width: 100%;
+        padding: 30px;
+    }
+}
