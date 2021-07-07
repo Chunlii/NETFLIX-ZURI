@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Netflix Sans Regular';
+    background-color: black;
 }
 
 header{
@@ -51,7 +52,7 @@ header{
     margin: 20px 0px;
 }
 
-.Go-now{
+.sign-out{
     padding: 10px 20px;
     background: #307BEB;
     border: none;
@@ -63,9 +64,15 @@ header{
     font-size: 16px;
 
 }
+.sign-out:hover{
+    cursor: pointer;
+}
 .footer {
     color: #C4C4C4D4;
     padding: 20px;
+    margin: 100px auto;
+    max-width: 1000px;
+    margin: auto;
 }
 h3 {
     margin: 15px 0px;
@@ -74,18 +81,18 @@ h3 {
 }
 .links {
     display: flex;
-    align-items: flex-start;
+    
     flex-wrap: wrap;
 }
 .questions {
     color: #C4C4C4D4;
     font-size: 16px;
-    padding-left: 10px;
     text-decoration: none;
+    
 }
 .links a {
     text-decoration: none;
-    margin: 10px;
+    margin: 18px 0px;
     color: grey;
     width: 140px;
     font-size: 14px;

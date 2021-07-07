@@ -13,6 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 50px;
 }
 .Sign-Section{
     background: black;
@@ -81,6 +82,9 @@ h3{
 }
 h3 > span{
     color: white;
+}
+.sign-up-option{
+    color: #C4C4C4;
 }
 .recaptcha{
     font-size: 14px;

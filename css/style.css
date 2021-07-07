@@ -40,6 +40,9 @@ img{
     font-family: 'Netflix Sans Regular';
 
 }
+.logo-signIn button:hover{
+    cursor: pointer;
+}
 .Unlimited-movies{
     text-align: center;
     margin:  auto;
@@ -85,6 +88,9 @@ img{
     color: white;
     margin-right: 10px;
     font-size: 21px;
+}
+.button-chevron button:hover{
+    cursor: pointer;
 }
 .button-chevron img{
     width: 20px;
